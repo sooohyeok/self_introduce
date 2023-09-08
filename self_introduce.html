@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김수혁 (SoooHyeok)</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="src/img/favicon.png"
+    />
+  </head>
+  <body>
+    <main id="app">
+      <section class="section-intro">
+        <header id="header">
+          <h1 class="txt-invisible">Portfolio</h1>
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#about" class="list-link">About</a></li>
+              <li><a href="#project" class="list-link">Project</a></li>
+              <li><a href="#contact" class="list-link">Contact</a></li>
+              <li>
+                <a
+                  href="https://github.com/sooohyeok"
+                  class="list-link btn-code"
+                  >code</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="bar-bg">
+            <span class="bar-ing"></span>
+          </div>
+        </header>
+
+        <div class="cont-intro">
+          <a name="info"></a>
+          <img src="roo.jpg" alt="프로필 이미지" />
+          <div>
+            <p class="txt-title"></p>
+            <a href="#about" class="btn-more">More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about">
+        <a name="about"></a>
+        <h2>About.</h2>
+        <div class="cont-about">
+          <div class="slide-container">
+            <div class="slide-album">
+              <div class="slide-images">
+                <img src="roo1.jpg" alt="내 사진" />
+                <img src="roo2.jpg" alt="내 사진" />
+                <img src="roo3.jpg" alt="내 사진" />
+                <img src="roo4.jpg" alt="내 사진" />
+                <img src="roo6.jpg" alt="내 사진" />
+              </div>
+              <button class="btn-next">▶</button>
+              <button class="btn-prev">◀</button>
+            </div>
+          </div>
+          <div class="info-about">
+            <dl class="txt-about">
+              <div>
+                <dt>이름</dt>
+                <dd>김수혁</dd>
+              </div>
+              <div>
+                <dt>생년월일</dt>
+                <dd>97.05.03</dd>
+              </div>
+              <div>
+                <dt>거주지</dt>
+                <dd>서울시 강남구</dd>
+              </div>
+              <div>
+                <dt>학교/전공</dt>
+                <dd>원피스 루피</dd>
+              </div>
+            </dl>
+            <div class="btn-about">
+              <button class="btn-open" type="button">
+                <img src="hat2.png" alt="" />취미
+              </button>
+              <button class="btn-open" type="button">
+                <img src="hat3.png" alt="" />성격
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-project">
+        <a name="project"></a>
+        <h2>Project.</h2>
+        <article class="box-project">
+          <div>
+            <img
+              class="img-project"
+              src="hi.jpg"
+              alt="첫번째 프로젝트 이미지"
+            />
+            <button
+              class="btn-detail"
+              type="button"
+              onclick="location.href='https://youtu.be/MsvM368OYtg?si=948MvBaAGvQffN7P';"
+            >
+              자세히 보기
+            </button>
+          </div>
+          <div class="txt-project">
+            <h3>사람이 언제 죽는줄 아나?</h3>
+            <dl>
+              <dt>소재</dt>
+              <dd>원피스</dd>
+              <dt>설명</dt>
+              <dd>원피스 명장면</dd>
+              <dt>출연</dt>
+              <dd>히루루크</dd>
+            </dl>
+          </div>
+        </article>
+
+        <article class="box-project">
+          <div>
+            <img
+              class="img-project"
+              src="hi2.jpg"
+              alt="두번째 프로젝트 이미지"
+            />
+            <button
+              class="btn-detail"
+              type="button"
+              onclick="location.href='https://youtu.be/fhQaOYkA_z0?si=AWg6c6f6XDpZw9Mf';"
+            >
+              자세히 보기
+            </button>
+          </div>
+          <div class="txt-project">
+            <h3></h3>
+            <dl>
+              <dt>소재</dt>
+              <dd>원피스</dd>
+              <dt>설명</dt>
+              <dd>에이스 죽음</dd>
+              <dt>출연</dt>
+              <dd>에이스, 루피</dd>
+            </dl>
+          </div>
+        </article>
+      </section>
+
+      <footer id="footer">
+        <a name="contact"></a>
+        <div class="box-footer">
+          <h2>Contact.</h2>
+          <ul class="link-sns">
+            <li>
+              <a href="https://github.com/sooohyeok"
+                ><img
+                  class="img-github"
+                  src="hat2.png"
+                  alt="깃허브 주소"
+                />github</a
+              >
+            </li>
+            <li>
+              <a href="https://blog.naver.com/ruppy487"
+                ><img
+                  class="img-velog"
+                  src="hat3.png"
+                  alt="블로그 주소"
+                />Blog</a
+              >
+            </li>
+          </ul>
+          <p>© 2023 - SooHyeok</p>
+        </div>
+      </footer>
+      <div class="modal-background">
+        <div class="modal">
+          <h3>취미</h3>
+          <h4>원피스 보기</h4>
+          <img src="good.jpg" alt="원피스 이미지" />
+          <p>
+            죽기전에 꼭 봐야 할 영상 1위 : 원피스
+          </p>
+          <button type="button" class="btn-close">Close</button>
+        </div>
+      </div>
+      <div class="modal-background">
+        <div class="modal">
+          <h3>성격</h3>
+          <h4>활발해요</h4>
+          <img src="good2.png" alt="루피 이미지" />
+          <p>
+            루피처럼 살자!
+          </p>
+          <button type="button" class="btn-close">Close</button>
+        </div>
+      </div>
+      <button onclick="moveToTop()" class="btn-moveTop"></button>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
